@@ -1,0 +1,6 @@
+/* Preserve the approved album layout; only errors add a retry affordance. */
+.photo-tile.thumbnail-error .zoom-label{color:#842f35;border-color:#a67b70}
+#viewer-image{width:100%;height:100%;object-fit:contain}
+#viewer-retry{position:absolute;top:14px;left:20px;right:155px;max-width:360px;color:#fff;background:#44392f;font-size:14px;padding:10px;min-height:48px}
+#viewer-retry[hidden]{display:none}
+@media(max-width:760px){#viewer-retry{left:12px;right:138px;font-size:12px}}
