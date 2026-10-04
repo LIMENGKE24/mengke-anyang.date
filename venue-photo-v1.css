@@ -1,0 +1,11 @@
+/* Venue exterior preview: warm photographic paper, independent single-image viewers. */
+.venue-visuals{min-width:0;display:grid;gap:30px}
+.venue-photo{margin:0;background:#f9f6ef;padding:9px 9px 0;border:1px solid #ddd3c4;box-shadow:0 6px 22px #55432d0b}
+.venue-photo>a{display:block;overflow:hidden;cursor:zoom-in}
+.venue-photo img{width:100%;height:auto;aspect-ratio:860/484;object-fit:contain;background:#eee8de}
+.venue-photo figcaption{font-size:17px;letter-spacing:1px;text-align:center;padding:17px 10px 18px;color:#665747}
+.venue-visuals .map-figure{max-width:none}
+.venue-visuals .map-figure img{aspect-ratio:1400/880}
+.venue-visuals .map-figure figcaption{margin-bottom:0}
+@media(min-width:1001px){.travel-layout{grid-template-columns:.84fr 1.16fr;gap:56px}.travel-info{padding-top:10px}.travel-wrap{max-width:1300px}}
+@media(max-width:760px){.venue-visuals{width:100%;gap:28px}.venue-photo{padding:6px 6px 0}.venue-photo figcaption{font-size:16px;padding:14px 8px 15px}.travel-layout{gap:28px}}
